@@ -8,7 +8,7 @@ This is a multiclass classification project to classify severity of road acciden
 **Problem Statement:** The target feature is Accident_severity which is a multi-class variable. The task is to classify this variable based on the other 31 features step-by-step by going through each day's task. Your metric for evaluation will be f1-score.
 
 ### Web application:
-[![Streamlit App](https://road-accident-severity-classification-ahg.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://road-accident-severity-classification-ahg.streamlit.app/)
 
 ### Tasks and techniques used:
 **1. Exploratory data analysis**
