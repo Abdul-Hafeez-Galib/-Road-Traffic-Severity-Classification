@@ -8,3 +8,26 @@ This is a multiclass classification project to classify severity of road acciden
 **Problem Statement:** The target feature is Accident_severity which is a multi-class variable. The task is to classify this variable based on the other 31 features step-by-step by going through each day's task. Your metric for evaluation will be f1-score.
 
 ### Web application:
+https://road-accident-severity-classification-ahg.streamlit.app/
+
+### Tasks and techniques used:
+**1. Exploratory data analysis**
+- Data analysis using `dabl`
+- Exploratory data analysis using `matplotlib` and `seaborn`
+
+**2. Data preparation and pre-processing**
+- Missing Values Tretment using fillna method
+- One Hot encoding using pandas get_dummies
+- Feature selection using `chi2` statistic and SelectKBest method
+- PCA to reduce dimentinality
+- Imbalance data tretment using `SMOTENC` technique
+
+**3. Modelling using sci-kit learn library**
+- Baseline model using `RandomForest` using default technique 
+- Tuned hyperparameters using `n_estimators` and `max_depth` parameters 
+
+**4. Evaluation**
+- Evaluation metric was weighted `f1_score` 
+- Baseline model evaluation `fl_score = 61%`
+- Final model evaluation `f1_score = 88%`
+
